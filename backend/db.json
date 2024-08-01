@@ -1,0 +1,19 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "nome": "Paulo Vieira",
+            "email": "paulo@ufes.br"
+        },
+        {
+            "id": 2,
+            "nome": "Maria Cicília",
+            "email": "maria@ufes.br"
+        },
+        {
+            "id": 3,
+            "nome": "João Figueredo",
+            "email": "joao@ufes.br"
+        }
+    ]
+}
