@@ -47,7 +47,7 @@ export default class UserCrud extends Component {
     }
 
     load(user) {
-        this.setState(user)
+        this.setState({user})
     }
 
     remove(user) {
@@ -101,17 +101,16 @@ export default class UserCrud extends Component {
     }
 
     renderRowns() {
-        console.log(this.state.list)
         return this.state.list.map( (user) => (
             <tr key={user.id}>
                 <td>{user.id}</td>
                 <td>{user.nome}</td>
-                <td>{user.emal}</td>
+                <td>{user.email}</td>
                 <td>
-                    <button className="btn btn-warning" onClick={e => this.load(e)}>
+                    <button className="btn btn-warning" onClick={() => this.load(user)}>
                         <i className="fa fa-pencil"></i>
                     </button>
-                    <button className="btn btn-danger mx-2" onClick={e => this.remove(e)}>
+                    <button className="btn btn-danger mx-2" onClick={() => this.remove(user)}>
                         <i className="fa fa-trash"></i>
                     </button>
                 </td>

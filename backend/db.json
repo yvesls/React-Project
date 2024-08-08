@@ -1,18 +1,8 @@
 {
   "users": [
     {
-      "id": 1,
-      "nome": "Paulo Vieira",
-      "email": "paulo@ufes.br"
-    },
-    {
-      "id": 2,
-      "nome": "Maria Cicília",
-      "email": "maria@ufes.br"
-    },
-    {
       "id": 3,
-      "nome": "João Figueredo",
+      "nome": "João Figueredo Gonçalves",
       "email": "joao@ufes.br"
     },
     {
@@ -24,6 +14,11 @@
       "nome": "Bart",
       "email": "bart@gart",
       "id": 6
+    },
+    {
+      "nome": "Jason",
+      "email": "json@json",
+      "id": 7
     }
   ]
 }
