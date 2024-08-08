@@ -1,0 +1,12 @@
+* {
+    box-sizing: bo;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    background-color: #47c243;
+    color: #EEE;
+}
