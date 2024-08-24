@@ -1,20 +1,24 @@
-export default function Jsx() {
-    // pode código js puro
-    const titulo = "Meu Título"
-    const subtitulo = <h4>Meu nome é Jerônimo!</h4>
+import Layout from '@/components/Layout';
 
-    function rodape() {
-        return <h3>Meu Rodapé!</h3>
-    }
-    return (
-        <div>
-            <h1>{titulo}</h1>
-            {"Uper ai".toUpperCase()}
-                {subtitulo}
-            <p>
-                {JSON.stringify({nome: "Jerônimo", idade: 194})}
-            </p>
-            {rodape()}
-        </div>
-    )
+export default function Jsx() {
+  const titulo = 'Meu título';
+  const titulo2 = 'Subtitulo aqui';
+
+  function rodape() {
+    return <h3>Meu Rodapé!</h3>;
+  }
+
+  return (
+    <Layout titulo="Entendendo o JSX">
+      <div>
+        <h1>{titulo}</h1>
+        <h2>{titulo2}</h2>
+        <hr />
+        <h3>{'muito legal'.toUpperCase()}</h3>
+        <p>{JSON.stringify({ Nome: 'João', idade: 39 })}</p>
+        <p>Meu nome é João!</p>
+        {rodape()}
+      </div>
+    </Layout>
+  );
 }

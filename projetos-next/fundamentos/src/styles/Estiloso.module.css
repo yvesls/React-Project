@@ -1,11 +1,5 @@
 .roxo {
-    background-color: blueviolet;
-    color: #FFF;
-    height: 100vh;
+  background-color: blueviolet;
+  color: #fff;
+  height: 100%;
 }
-
-/* tag inteira não aceita no module
-h1 {
-    color: yellow;
-} 
-*/
